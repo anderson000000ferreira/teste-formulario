@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/respansivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="conteudo">
+        <section class="secao">
+            <h1>FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+            
+            <p class="text-info">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <form class="form" id="form">
+            <input type="text" name="text" class="caixa-texto importante" placeholder="Nome Completo *" id="import">
+            <p class="txt-obrigatorio" id="obrigatorio">campo obrigatório</p>
+
+            <input type="email" name="text" class="caixa-texto importante" placeholder="Email *" id="import">
+            <p class="txt-obrigatorio">campo obrigatório</p>
+
+            <input type="tel" name="text" class="caixa-texto importante" placeholder="Telefone *" id="import">
+            <p class="txt-obrigatorio">campo obrigatório</p>
+
+            <textarea name="txt-message" id="" cols="10" rows="5" placeholder="Menssagem *" class="caixa-texto importante" id="import"></textarea>
+            <p class="txt-obrigatorio">campo obrigatório</p>
+
+            <span>*Campos obrigatórios</span>
+
+            <button class="btn-enviar" type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1330px;
+    background: url(../image/bg-repeat.jpg);
+    background-size: contain;
+    margin: 0 auto;
+}
+
+.conteudo {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.conteudo .secao {
+    align-items: center;
+    margin: 0 20px;
+    max-width: 90%;
+    padding: 0 10px;
+}
+
+.conteudo .secao h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+.conteudo .secao .text-info {
+    color: #fff;
+    max-width: 80%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.conteudo .form {
+    display: flex;
+    flex-direction: column;
+    min-width: 340px;
+    min-height: 378px;
+    background-color: #fff;
+    margin: 0 20px;
+}
+
+.conteudo .form .caixa-texto {
+    padding: 10px 9px;
+    margin: 0 15px;
+    margin-top: 20px;
+    max-width: 300px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    resize: none;
+    font-weight: 700;
+}
+
+.conteudo .form .txt-obrigatorio {
+    display: none;
+    margin: 0 20px;
+    color: #F52E2E;
+}
+
+.conteudo .form span {
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin: 5px 15px;
+}
+
+.conteudo .form .btn-enviar {
+    max-width: 300px;
+    margin: 10px 20px;
+    margin-bottom: 20px;
+    padding: 12px 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3CCC87;
+    color: #fff;
+    font-weight: 700;
+}
